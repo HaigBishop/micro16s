@@ -1,0 +1,427 @@
+{
+    "ARCHEA_DISTANCE_FACTOR": 0.75,
+    "ATT_DROPOUT_PROP": 0.0,
+    "BACTERIA_DISTANCE_FACTOR": 0.75,
+    "CONFORMER_KERNEL_SIZE": 15,
+    "CONV_STEM_INIT_SCALE": 0.1,
+    "CONV_STEM_KERNEL_SIZE": 7,
+    "CONV_STEM_RESIDUAL": true,
+    "CROSS_REGION_LOGGING_MAX_LINES_PER_TABLE": 6,
+    "DATASET_SPLIT_DIR": "/mnt/secondary/micro16s_dbs/16s_databases/m16s_db_004/seqs/split_002/",
+    "DESCRIPTION": "Final Run: Application Model",
+    "DISTANCE_GAMMA_CORRECTION_GAMMA": 0.6,
+    "DOWNSAMPLE_PAIRS_AT_RANK": [
+        [
+            0,
+            1.0
+        ],
+        [
+            1,
+            1.0
+        ],
+        [
+            2,
+            1.0
+        ],
+        [
+            3,
+            1.0
+        ],
+        [
+            4,
+            1.0
+        ],
+        [
+            5,
+            1.0
+        ],
+        [
+            6,
+            1.0
+        ],
+        [
+            7,
+            1.0
+        ]
+    ],
+    "DO_QT": true,
+    "DROPOUT_PROP": 0.0,
+    "D_FF": 512,
+    "D_MODEL": 96,
+    "EMBED_DIMS": 256,
+    "FILTER_ZERO_LOSS_TRIPLETS": true,
+    "FREE_LARGE_INTERMEDIATES_WHEN_MINING": false,
+    "INTRODUCE_RANK_AT_BATCHES": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "LEARNING_RATE": 0.00025,
+    "LOG_CONV_STEM_SCALE": true,
+    "LOG_EVERY_N_BATCHES": 100,
+    "LOG_MINING": true,
+    "LOG_MINING_ARC_BAC_COUNTS": true,
+    "LOG_MINING_BUCKET_THRESHOLDS": false,
+    "LOG_MINING_PHYLA_COUNTS": false,
+    "LOG_PAIR_LOSS": true,
+    "LOG_PAIR_MINING": true,
+    "LOG_TRIPLET_LOSS": true,
+    "LOG_TRIPLET_MINING": true,
+    "LOG_UNCERTAINTY_WEIGHTING": true,
+    "LR_SCHEDULER_KWARGS": null,
+    "LR_SCHEDULER_TYPE": null,
+    "MANUAL_TRIPLET_MARGINS": false,
+    "MANUAL_TRIPLET_MARGINS_PER_RANK": {
+        "0": 0.5,
+        "1": 0.5,
+        "2": 0.5,
+        "3": 0.5,
+        "4": 0.5,
+        "5": 0.5,
+        "6": 0.5
+    },
+    "MAX_IMPORTED_SEQ_LEN": 600,
+    "MAX_MODEL_SEQ_LEN": 600,
+    "MAX_NUM_SUBSEQS": null,
+    "MAX_TRUNC_END": 60,
+    "MAX_TRUNC_START": 60,
+    "MINING_BATCH_SIZE": 300,
+    "MINING_PHYLA_LOG_MAX_LINES_PER_TABLE": 200,
+    "MINING_TRAIN_SEQUENCES_SUB_SAMPLE_ARCHAEA": 0.2,
+    "MINING_TRAIN_SEQUENCES_SUB_SAMPLE_BACTERIA": 0.2,
+    "MIN_TRIPLETS_AFTER_FILTER_PER_RANK_BATCH_SIZE_FACTOR": 1.0,
+    "MIN_TRUNC_END": 0,
+    "MIN_TRUNC_START": 0,
+    "MODELS_DIR": "/home/haig/Repos/micro16s/models/",
+    "MUTATION_RATE": 0.01,
+    "NUM_BATCHES": 30000,
+    "NUM_BATCHES_PER_MINING_RUN": 1,
+    "NUM_MICRO_BATCHES_PER_BATCH": 64,
+    "N_HEAD": 4,
+    "N_LAYERS": 4,
+    "N_PAIRS_PER_BATCH": 3840,
+    "N_TRIPLETS_PER_BATCH": 7680,
+    "PAIR_EMA_MEAN_WEIGHT": 2.0,
+    "PAIR_EMA_QUARTILES_WEIGHT": 1.0,
+    "PAIR_LOSS_WEIGHT": 1.0,
+    "PAIR_MINING_BUCKETS": [
+        [
+            0.25,
+            0.1
+        ],
+        [
+            0.25,
+            0.15
+        ],
+        [
+            0.25,
+            0.2
+        ],
+        [
+            0.15,
+            0.25
+        ],
+        [
+            0.08,
+            0.15
+        ],
+        [
+            0.02,
+            0.15
+        ],
+        [
+            null,
+            0.0
+        ]
+    ],
+    "PAIR_MINING_EMA_ALPHA": 0.05,
+    "PAIR_MINING_EMA_WEIGHT_EXPONENT": 1.0,
+    "PAIR_MINING_REPRESENTATIVE_SET_SIZES": [
+        40000,
+        40000,
+        40000,
+        40000,
+        40000,
+        40000,
+        40000,
+        0,
+        8000
+    ],
+    "PAIR_MINING_WARMUP_TRANSITION_DURATION": 0,
+    "PAIR_MINING_WARMUP_UNIFORM_DURATION": 0,
+    "PAIR_PER_RANK_BATCH_PROPORTION_MAX": 0.5,
+    "PAIR_PER_RANK_BATCH_PROPORTION_MIN": 0.05,
+    "PAIR_RANKS": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+    ],
+    "PAIR_RELATIVE_LOSS_CAP": 2.0,
+    "PAIR_REPRESENTATIVE_TAXON_SIZE_BALANCE_LAMBDA": 0.35,
+    "PAIR_SIGN_BIAS_BETA_PER_RANK": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "PIN_MEMORY_FOR_MINING": true,
+    "PLOT_CONV_STEM_SCALE_EVERY_N_BATCHES": 50,
+    "PLOT_LOSS_EVERY_N_BATCHES": 25,
+    "PLOT_PAIR_DISTANCES_EVERY_N_BATCHES": 50,
+    "PLOT_PAIR_ERROR_METRICS_EVERY_N_BATCHES": 50,
+    "PLOT_PAIR_LOSS": true,
+    "PLOT_TOTAL_LOSS": true,
+    "PLOT_TRIPLET_ERROR_METRICS_EVERY_N_BATCHES": 50,
+    "PLOT_TRIPLET_LOSS": true,
+    "PLOT_TRIPLET_SATISFACTION_EVERY_N_BATCHES": 50,
+    "PLOT_UNCERTAINTY_WEIGHTING": true,
+    "POOLING_TYPE": "attention",
+    "PRINT_BATCH_NUM_EVERY_N_BATCHES": 25,
+    "PROPORTION_IDENTICAL_SEQUENCES_TO_GENERATE": 1.0,
+    "PROP_SHIFT_SEQS": 0.5,
+    "PROP_TRUNC": 1.0,
+    "QT_BATCH_SIZE": 300,
+    "QT_BEFORE_FIRST_BATCH": true,
+    "QT_CLASSIFICATION_RANKS": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ],
+    "QT_CLUSTERING_RANKS": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ],
+    "QT_EVERY_N_BATCHES": 200,
+    "QT_GET_KMER_RESULTS": false,
+    "QT_KMER_K_VALUES": [],
+    "QT_MAX_N_REGIONS": 8,
+    "QT_MAX_TAXA_PER_RANK_LEVEL_CLUSTERING": 1000,
+    "QT_MAX_TRUNC_END": 60,
+    "QT_MAX_TRUNC_START": 60,
+    "QT_MIN_TRUNC_END": 0,
+    "QT_MIN_TRUNC_START": 0,
+    "QT_MUTATION_RATE": 0.01,
+    "QT_PCOA_EVERY_N_BATCHES": 100000,
+    "QT_PCOA_RANKS": [
+        0,
+        1
+    ],
+    "QT_PRINT_RESULTS": false,
+    "QT_PROP_SHIFT_SEQS": 0.0,
+    "QT_PROP_TRUNC": 1.0,
+    "QT_RANK_LEVEL_CLUSTERING_METRICS_AT_RANKS": [
+        0,
+        1,
+        2
+    ],
+    "QT_RECORD_MISS_CLASSIFICATION_SEQUENCES_AT_RANKS": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "QT_TESTS_TODO": [
+        "excl-full-embed-pcoa",
+        "train-subseqs-embed-clust",
+        "train-subseqs-embed-umap",
+        "train-embed-ssc",
+        "train-subseqs-embed-class",
+        "excl-subseqs-embed-clust",
+        "test-subseqs-embed-class",
+        "train-subseqs-embed-pcoa",
+        "test-subseqs-embed-umap",
+        "test-subseqs-embed-pcoa",
+        "test-subseqs-embed-clust",
+        "test-embed-ssc",
+        "excl-embed-ssc",
+        "excl-subseqs-embed-class",
+        "excl-full-embed-umap"
+    ],
+    "QT_UMAP_EVERY_N_BATCHES": 1000,
+    "QT_UMAP_RANKS": [
+        0,
+        1
+    ],
+    "QT_VERBOSE": false,
+    "RANK_LEVEL_CLUSTERING_PLOTS_EVERY_N_BATCHES": 1000,
+    "RECORD_LOSS_EVERY_N_BATCHES": 5,
+    "REDVALS_DIR": "/home/haig/Repos/micro16s/redvals/",
+    "RED_DISTANCE_BETWEEN_DOMAINS": 1.6,
+    "RELATIVE_ERROR_EPSILONS_PAIR_LOSS": [
+        0.08,
+        0.08,
+        0.08,
+        0.08,
+        0.08,
+        0.08,
+        0.08,
+        0.08,
+        0.08
+    ],
+    "RELATIVE_ERROR_EPSILONS_PAIR_MINING": [
+        0.08,
+        0.08,
+        0.08,
+        0.08,
+        0.08,
+        0.08,
+        0.08,
+        0.08,
+        0.08
+    ],
+    "RELATIVE_ERROR_EPSILONS_TRIPLET_LOSS": [
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02
+    ],
+    "REPRESENTATIVE_TAXON_SIZE_BALANCE_EPS": 1e-12,
+    "REPRESENTATIVE_TAXON_SIZE_BALANCE_WEIGHT_CLIP": 50.0,
+    "SAVE_EVERY_N_BATCHES": 500,
+    "SECOND_CONV_STEM_SCALE_PLOT_AFTER_N_BATCHES": 3000,
+    "SECOND_LOSS_PLOT_AFTER_N_BATCHES": 3000,
+    "SECOND_PAIR_ERROR_METRICS_PLOT_AFTER_N_BATCHES": 3000,
+    "SECOND_TRIPLET_ERROR_METRICS_PLOT_AFTER_N_BATCHES": 3000,
+    "SECOND_TRIPLET_SATISFACTION_PLOT_AFTER_N_BATCHES": 3000,
+    "SEQLESS_MODE": false,
+    "SEQ_3BIT_REPRESENTATION_DICT": {
+        "A": [
+            0,
+            0
+        ],
+        "C": [
+            0,
+            1
+        ],
+        "G": [
+            1,
+            0
+        ],
+        "T": [
+            1,
+            1
+        ]
+    },
+    "SHUFFLE_TRIPLETS_AND_PAIRS_AFTER_MINING": true,
+    "START_FROM_CKPT": false,
+    "SUBSEQUENCES_ALWAYS_CROSS_REGION": true,
+    "SUB_SEQUENCE_TRUE_DISTANCE": 0.0,
+    "TAXA_CAP_MAX_NUM_TAXA": null,
+    "TAXA_CAP_RANK": 1,
+    "TAXA_CAP_VERBOSE": true,
+    "TAXON_SIZE_MINING_BIAS_ALPHAS_PER_RANK": [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+    ],
+    "TAXON_SIZE_MINING_BIAS_BASELINE_PERCENTILE": 50.0,
+    "TAXON_SIZE_MINING_BIAS_BASELINE_STAT": "median",
+    "TAXON_SIZE_MINING_BIAS_MIN_KEEP_PER_RANK": null,
+    "TRIPLET_EMA_HARD_WEIGHT": 3.0,
+    "TRIPLET_EMA_MODERATE_WEIGHT": 1.0,
+    "TRIPLET_LOSS_WEIGHT": 1.0,
+    "TRIPLET_MARGIN_EPSILON": 1.0,
+    "TRIPLET_MINING_BUCKETS": [
+        [
+            0.35,
+            0.25
+        ],
+        [
+            0.3,
+            0.25
+        ],
+        [
+            0.2,
+            0.25
+        ],
+        [
+            0.15,
+            0.25
+        ],
+        [
+            null,
+            0.0
+        ]
+    ],
+    "TRIPLET_MINING_EMA_ALPHA": 0.05,
+    "TRIPLET_MINING_EMA_WEIGHT_EXPONENT": 1.0,
+    "TRIPLET_MINING_NEGATIVE_SELECTION_BIAS_BETA": 2.0,
+    "TRIPLET_MINING_NEGATIVE_SELECTION_BIAS_EPS": 1e-12,
+    "TRIPLET_MINING_POSITIVE_SELECTION_BIAS_BETA": 1.0,
+    "TRIPLET_MINING_POSITIVE_SELECTION_BIAS_EPS": 1e-12,
+    "TRIPLET_MINING_REPRESENTATIVE_SET_SIZES": [
+        40000,
+        40000,
+        40000,
+        40000,
+        40000,
+        40000
+    ],
+    "TRIPLET_MINING_WARMUP_TRANSITION_DURATION": 0,
+    "TRIPLET_MINING_WARMUP_UNIFORM_DURATION": 0,
+    "TRIPLET_NEGATIVES_PER_AP": 1,
+    "TRIPLET_PER_RANK_BATCH_PROPORTION_MAX": 0.5,
+    "TRIPLET_PER_RANK_BATCH_PROPORTION_MIN": 0.05,
+    "TRIPLET_RANKS": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "TRIPLET_RELATIVE_LOSS_CAP": 4.0,
+    "TRIPLET_REPRESENTATIVE_TAXON_SIZE_BALANCE_LAMBDA": 0.8,
+    "UNCERTAINTY_LEARNING_RATE": 0.002,
+    "USE_CONVFORMER": true,
+    "USE_CONV_STEM": true,
+    "USE_FLOAT_16_FOR_MINING_COSINE_DISTANCES": false,
+    "USE_FULL_SEQS": false,
+    "USE_REPRESENTATIVE_TAXON_SIZE_BALANCING": true,
+    "USE_SUB_SEQS": true,
+    "USE_TAXON_SIZE_MINING_BIAS": false,
+    "USE_TRIPLET_MINING_NEGATIVE_SELECTION_BIAS": true,
+    "USE_TRIPLET_MINING_POSITIVE_SELECTION_BIAS": true,
+    "USE_UNCERTAINTY_WEIGHTING": false,
+    "VERBOSE_CONV_STEM_SCALE": false,
+    "VERBOSE_EVERY_N_BATCHES": 100,
+    "VERBOSE_MINING_TIMING": false,
+    "VERBOSE_PAIR_LOSS": false,
+    "VERBOSE_PAIR_MINING": false,
+    "VERBOSE_TRAINING_TIMING": false,
+    "VERBOSE_TRIPLET_LOSS": false,
+    "VERBOSE_TRIPLET_MINING": false,
+    "VERBOSE_UNCERTAINTY_WEIGHTING": false,
+    "WEIGHT_DECAY": 0.001
+}

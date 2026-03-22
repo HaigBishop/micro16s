@@ -1,0 +1,21 @@
+----------------------------------------
+Micro16S Training Summary for m16s_002
+----------------------------------------
+
+Note: This about_training.txt file was written just before training started, and has not been overwritten at the end of the training run (as it should be when training completes). This suggests that training has not/did not complete.
+
+Created: 2026-02-28 17:45:58
+Host: haigs-pc-pop
+Device: cuda:0 - NVIDIA GeForce RTX 4090 (capability 8.9)
+PyTorch: 2.6.0+cu126
+Git commit: 160ad5557822f2774fd31b165973b94f95ea4cf9
+Git message: stitch up
+Training run: DEFAULT (SINGLE)
+Description: Final Run: Application Model
+Dataset split: /mnt/secondary/micro16s_dbs/16s_databases/m16s_db_004/seqs/split_002/
+Model directory: /home/haig/Repos/micro16s/models/m16s_002/
+Latest checkpoint: /home/haig/Repos/micro16s/models/m16s_002/m16s_002_latest.pth
+Logs directory: /home/haig/Repos/micro16s/models/m16s_002/logs/
+Quick test results: /home/haig/Repos/micro16s/models/m16s_002/qt_results/
+Quick test plots: /home/haig/Repos/micro16s/models/m16s_002/qt_plots/
+Training config: /home/haig/Repos/micro16s/models/m16s_002/cfg/training_config.txt

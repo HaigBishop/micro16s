@@ -1,0 +1,8 @@
+# Misc
+.vscode/
+__pycache__/
+.DS_Store
+
+# Other repos as subdirectories
+redvals/
+extract16s/
