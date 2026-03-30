@@ -2,6 +2,8 @@
 # Micro16S
 Micro16S is a small neural network trained to embed 16S rRNA genes into dense vectors which hold phylogenetic/taxonomic identity.
 
+**Preprint:** https://www.biorxiv.org/content/10.64898/2026.03.21.713432v1
+
 ### Background
 All bacteria (and archaea) have their own variant of the 16S rRNA gene. For years microbiologists have used this gene as a way to identify bacteria. Closely related species will have more similar sequences. These DNA sequences hold useful information regarding a bacterium's phylogenetic identity, but in a form (DNA sequence) which is difficult to give to machine learning models. 
 
